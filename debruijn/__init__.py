@@ -4,15 +4,18 @@ import composition
 from overlapgraph import suffix, prefix
 
 
-def create(text, k):
-    kmers = composition.composition(text, k)
-
+def create_from_patterns(kmers):
     edges = defaultdict(list)
     for kmer in kmers:
         p = prefix(kmer)
         edges[p].append(suffix(kmer))
 
     return edges
+
+
+def create(text, k):
+    kmers = composition.composition(text, k)
+    return create_from_patterns(kmers)
 
 
 def to_string(graph):
