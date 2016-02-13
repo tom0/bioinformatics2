@@ -1,23 +1,5 @@
 import eulerian.cycle
-
-
-def test_parse_edges():
-    input_lines = ['0 -> 3', '1 -> 0', '2 -> 1,6', '3 -> 2', '4 -> 2', '5 -> 4', '6 -> 5,8', '7 -> 9', '8 -> 7',
-                   '9 -> 6']
-
-    expected = {
-        0: [3],
-        1: [0],
-        2: [1, 6],
-        3: [2],
-        4: [2],
-        5: [4],
-        6: [5, 8],
-        7: [9],
-        8: [7],
-        9: [6]}
-
-    assert (expected == eulerian.cycle.parse_edges(input_lines))
+import eulerian.util
 
 
 def test_find_cycle():
@@ -79,9 +61,3 @@ def test_find_cycle_with_multiple_loops():
     expected = [7, 8, 9, 4, 5, 6, 12, 13, 6, 0, 1, 2, 3, 0, 4, 7, 10, 11, 7, 14, 15, 7, 16, 17, 7]
 
     assert (expected == eulerian.cycle.find_cycle(input))
-
-
-def test_cycle_to_string():
-    input = [6, 5, 4, 2, 1, 0, 3, 2, 6, 8, 7, 9, 6]
-    expected = '6->5->4->2->1->0->3->2->6->8->7->9->6'
-    assert (expected == eulerian.cycle.cycle_to_string(input))

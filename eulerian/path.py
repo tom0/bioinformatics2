@@ -1,4 +1,24 @@
-def find_cycle(edges):
+def balance_graph(edges):
+    from collections import defaultdict
+    incoming_counts = defaultdict(int)
+    for node, outgoings in edges.items():
+        for x in outgoings:
+            incoming_counts[x] += 1
+
+    missing_nodes = filter(lambda i: i not in edges, incoming_counts)
+    for node in missing_nodes:
+        edges[node] = []
+
+    destination = filter(lambda i: len(edges[i]) < incoming_counts[i], edges)[0]
+    origin = filter(lambda i: len(edges[i]) > incoming_counts[i], edges)[0]
+
+    edges[destination].append(origin)
+
+    return edges, destination, origin
+
+
+def find_path(edges):
+    (edges, destination_node, origin_node) = balance_graph(edges)
     result = []
     start_node = 0
     current_node = start_node
@@ -24,5 +44,8 @@ def find_cycle(edges):
 
         current_node = next_node
 
-    result.append(result[0])
+    # Shift the list around so that the destination is last
+    end_index = result.index(destination_node)
+    result = result[end_index+1:] + result[:end_index+1]
+
     return result
