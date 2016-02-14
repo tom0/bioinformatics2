@@ -1,6 +1,6 @@
 def find_cycle(edges):
     result = []
-    start_node = 0
+    start_node = edges.keys()[0]
     current_node = start_node
 
     nodes_with_unexplored_edges = set()

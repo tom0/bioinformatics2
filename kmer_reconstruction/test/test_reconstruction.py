@@ -1,4 +1,4 @@
-from reconstruction import reconstruct
+from kmer_reconstruction import reconstruct
 
 
 def test_normal_case():

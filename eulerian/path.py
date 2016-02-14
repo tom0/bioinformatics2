@@ -20,7 +20,7 @@ def balance_graph(edges):
 def find_path(edges):
     (edges, destination_node, origin_node) = balance_graph(edges)
     result = []
-    start_node = 0
+    start_node = edges.keys()[0]
     current_node = start_node
 
     nodes_with_unexplored_edges = set()
