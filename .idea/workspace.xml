@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9628312d-6e03-4b91-8f97-533d1059cfce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eulerian/reconstruction.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eulerian/test/test_reconstruction.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reconstruction/__init__.py" afterPath="$PROJECT_DIR$/kmer_reconstruction/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reconstruction/__main__.py" afterPath="$PROJECT_DIR$/kmer_reconstruction/__main__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reconstruction/test/test_reconstruction.py" afterPath="$PROJECT_DIR$/kmer_reconstruction/test/test_reconstruction.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eulerian/kuniversal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eulerian/test/test_kuniversal.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eulerian/__main__.py" afterPath="$PROJECT_DIR$/eulerian/__main__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eulerian/cycle.py" afterPath="$PROJECT_DIR$/eulerian/cycle.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eulerian/path.py" afterPath="$PROJECT_DIR$/eulerian/path.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eulerian/test/test_path.py" afterPath="$PROJECT_DIR$/eulerian/test/test_path.py" />
     </list>
     <ignored path="bioinformatics2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,16 +20,17 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/bioinformatics2$py_test_in_test_find_cycle_with_path.coverage" NAME="py.test in test_find_cycle_with_path Coverage Results" MODIFIED="1455358526308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/bioinformatics2$py_test_in_test_find_cycle_with_multiple_loops_from_start.coverage" NAME="py.test in test_find_cycle_with_multiple_loops_from_start Coverage Results" MODIFIED="1455353311197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/bioinformatics2$py_test_in_test_find_cycle_with_loop.coverage" NAME="py.test in test_find_cycle_with_loop Coverage Results" MODIFIED="1455348925505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/bioinformatics2$py_test_in_test_find_path.coverage" NAME="py.test in test_find_path Coverage Results" MODIFIED="1455407389885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/bioinformatics2$py_test_in_test_find_path_with_kmers.coverage" NAME="py.test in test_find_path_with_kmers Coverage Results" MODIFIED="1455407300678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/bioinformatics2$py_test_in_test_find_cycle_with_multiple_loops.coverage" NAME="py.test in test_find_cycle_with_multiple_loops Coverage Results" MODIFIED="1455356619400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/bioinformatics2$py_test_in_test_find_path_with_kmers.coverage" NAME="py.test in test_find_path_with_kmers Coverage Results" MODIFIED="1455407300678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/bioinformatics2$Tests.coverage" NAME="Tests Coverage Results" MODIFIED="1455409354794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/bioinformatics2$__main____1_.coverage" NAME="__main__ (1) Coverage Results" MODIFIED="1455356547960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eulerian" />
     <SUITE FILE_PATH="coverage/bioinformatics2$py_test_in_test_find_cycle_annoying_108_case.coverage" NAME="py.test in test_find_cycle_annoying_108_case Coverage Results" MODIFIED="1455355582566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/bioinformatics2$py_test_in_test_reconstruct.coverage" NAME="py.test in test_reconstruct Coverage Results" MODIFIED="1455409308728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/bioinformatics2$py_test_in_test_cycle.coverage" NAME="py.test in test_cycle Coverage Results" MODIFIED="1455346379258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/bioinformatics2$py_test_in_test_create_circular_string.coverage" NAME="py.test in test_create_circular_string Coverage Results" MODIFIED="1455416754004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/bioinformatics2$py_test_in_test_find_cycle_with_multiple_loops_from_start.coverage" NAME="py.test in test_find_cycle_with_multiple_loops_from_start Coverage Results" MODIFIED="1455353311197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/bioinformatics2$py_test_in_test_find_path.coverage" NAME="py.test in test_find_path Coverage Results" MODIFIED="1455407389885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/bioinformatics2$__main____1_.coverage" NAME="__main__ (1) Coverage Results" MODIFIED="1455356547960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eulerian" />
+    <SUITE FILE_PATH="coverage/bioinformatics2$py_test_in_test_reconstruct.coverage" NAME="py.test in test_reconstruct Coverage Results" MODIFIED="1455409308728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/bioinformatics2$py_test_in_test_find_path_.coverage" NAME="py.test in test_find_path_ Coverage Results" MODIFIED="1455361966090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -47,41 +42,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cycle.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eulerian/cycle.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_debruijn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/debruijn/test/test_debruijn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kmer_reconstruction/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_reconstruction.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kmer_reconstruction/test/test_reconstruction.py">
+      <file leaf-file-name="cycle.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eulerian/cycle.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/eulerian/reconstruction.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -103,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/eulerian/test/test_reconstruction.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -113,30 +88,52 @@
         <entry file="file://$PROJECT_DIR$/eulerian/path.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_path.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eulerian/test/test_path.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__main__.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="__main__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eulerian/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17045455">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kuniversal.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eulerian/kuniversal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_kuniversal.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eulerian/test/test_kuniversal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.14610389">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buffer1" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/buffer1">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -185,7 +182,6 @@
         <option value="$PROJECT_DIR$/debruijn/__init__.py" />
         <option value="$PROJECT_DIR$/debruijn/test/test_debruijn.py" />
         <option value="$PROJECT_DIR$/debruijn/__main__.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/buffer1" />
         <option value="$PROJECT_DIR$/dataset.txt" />
         <option value="$PROJECT_DIR$/eulerian/test/test_cycle.py" />
         <option value="$PROJECT_DIR$/eulerian/util.py" />
@@ -194,7 +190,10 @@
         <option value="$PROJECT_DIR$/eulerian/cycle.py" />
         <option value="$PROJECT_DIR$/eulerian/test/test_reconstruction.py" />
         <option value="$PROJECT_DIR$/eulerian/reconstruction.py" />
+        <option value="$PROJECT_DIR$/eulerian/test/test_kuniversal.py" />
         <option value="$PROJECT_DIR$/eulerian/__main__.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/buffer1" />
+        <option value="$PROJECT_DIR$/eulerian/kuniversal.py" />
       </list>
     </option>
   </component>
@@ -205,7 +204,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
-    <option name="width" value="684" />
+    <option name="width" value="1368" />
     <option name="height" value="743" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -329,32 +328,7 @@
       <recent name="$PROJECT_DIR$/eulerian" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Tests">
-    <configuration default="false" name="py.test in test_find_cycle_with_path" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="bioinformatics2" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/eulerian/test/test_cycle.py" />
-      <option name="keywords" value="test_find_cycle_with_path" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="true" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.py.test in test_create_circular_string">
     <configuration default="false" name="py.test in test_find_path_" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -450,6 +424,31 @@
       <option name="USE_PATTERN" value="false" />
       <option name="testToRun" value="$PROJECT_DIR$/eulerian/test/test_reconstruction.py" />
       <option name="keywords" value="test_reconstruct" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in test_create_circular_string" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bioinformatics2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/eulerian/test/test_kuniversal.py" />
+      <option name="keywords" value="test_create_circular_string" />
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="true" />
@@ -675,19 +674,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Tests" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_find_cycle_with_path" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_find_path_" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_find_path_with_kmers" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_find_path" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test in test_reconstruct" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_find_path_" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_find_path_with_kmers" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_find_path" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_reconstruct" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test in test_create_circular_string" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_reconstruct" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_find_path" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_find_path_with_kmers" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_find_path_" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_find_cycle_with_path" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_create_circular_string" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_reconstruct" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_find_path" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_find_path_with_kmers" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_find_path_" />
       </list>
     </recent_temporary>
   </component>
@@ -705,47 +704,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2016.02.14 at 07h 50m 10s.xml">
-      <configuration name="Tests" configurationId="tests" />
+    <history-entry file="py_test_in_test_create_circular_string - 2016.02.14 at 09h 56m 51s.xml">
+      <configuration name="py.test in test_create_circular_string" configurationId="tests" />
     </history-entry>
-    <history-entry file="Tests - 2016.02.14 at 08h 22m 35s.xml">
-      <configuration name="Tests" configurationId="tests" />
+    <history-entry file="py_test_in_test_create_circular_string - 2016.02.14 at 10h 01m 30s.xml">
+      <configuration name="py.test in test_create_circular_string" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_find_path - 2016.02.14 at 07h 48m 32s.xml">
-      <configuration name="py.test in test_find_path" configurationId="tests" />
+    <history-entry file="py_test_in_test_create_circular_string - 2016.02.14 at 10h 04m 43s.xml">
+      <configuration name="py.test in test_create_circular_string" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_find_path - 2016.02.14 at 07h 49m 50s.xml">
-      <configuration name="py.test in test_find_path" configurationId="tests" />
+    <history-entry file="py_test_in_test_create_circular_string - 2016.02.14 at 10h 08m 45s.xml">
+      <configuration name="py.test in test_create_circular_string" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_find_path_ - 2016.02.13 at 19h 12m 46s.xml">
-      <configuration name="py.test in test_find_path_" configurationId="tests" />
+    <history-entry file="py_test_in_test_create_circular_string - 2016.02.14 at 10h 11m 27s.xml">
+      <configuration name="py.test in test_create_circular_string" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_find_path_with_kmers - 2016.02.14 at 07h 48m 22s.xml">
-      <configuration name="py.test in test_find_path_with_kmers" configurationId="tests" />
+    <history-entry file="py_test_in_test_create_circular_string - 2016.02.14 at 10h 19m 21s.xml">
+      <configuration name="py.test in test_create_circular_string" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_reconstruct - 2016.02.14 at 08h 15m 32s.xml">
-      <configuration name="py.test in test_reconstruct" configurationId="tests" />
+    <history-entry file="py_test_in_test_create_circular_string - 2016.02.14 at 10h 20m 43s.xml">
+      <configuration name="py.test in test_create_circular_string" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_reconstruct - 2016.02.14 at 08h 18m 31s.xml">
-      <configuration name="py.test in test_reconstruct" configurationId="tests" />
+    <history-entry file="py_test_in_test_create_circular_string - 2016.02.14 at 10h 24m 41s.xml">
+      <configuration name="py.test in test_create_circular_string" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_reconstruct - 2016.02.14 at 08h 20m 27s.xml">
-      <configuration name="py.test in test_reconstruct" configurationId="tests" />
+    <history-entry file="py_test_in_test_create_circular_string - 2016.02.14 at 10h 25m 45s.xml">
+      <configuration name="py.test in test_create_circular_string" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_reconstruct - 2016.02.14 at 08h 22m 27s.xml">
-      <configuration name="py.test in test_reconstruct" configurationId="tests" />
+    <history-entry file="py_test_in_test_create_circular_string - 2016.02.14 at 10h 28m 23s.xml">
+      <configuration name="py.test in test_create_circular_string" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="684" height="743" extended-state="4" />
+    <frame x="-1" y="0" width="1368" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3007752" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30645162" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43548387" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18008785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47071743" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43875968" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3875969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -837,7 +836,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/eulerian/__main__.py</url>
-          <line>13</line>
+          <line>14</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
@@ -926,11 +925,36 @@
           <line>9</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/eulerian/test/test_kuniversal.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/eulerian/test/test_kuniversal.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/eulerian/kuniversal.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/eulerian/kuniversal.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/eulerian/kuniversal.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="54" />
+      <option name="time" value="59" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1128,13 +1152,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/buffer1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/py/_apipkg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4260204">
@@ -1202,14 +1219,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eulerian/cycle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/debruijn/test/test_debruijn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1234,10 +1243,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/eulerian/path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eulerian/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/buffer1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eulerian/test/test_reconstruction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eulerian/reconstruction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kmer_reconstruction/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1250,39 +1303,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eulerian/path.py">
+    <entry file="file://$PROJECT_DIR$/eulerian/cycle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eulerian/reconstruction.py">
+    <entry file="file://$PROJECT_DIR$/eulerian/kuniversal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eulerian/test/test_reconstruction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eulerian/__main__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17045455">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eulerian/test/test_kuniversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14610389">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

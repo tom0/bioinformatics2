@@ -1,7 +1,8 @@
 import eulerian.cycle
+import eulerian.kuniversal
 import eulerian.path
-import eulerian.util
 import eulerian.reconstruction
+import eulerian.util
 import sys
 
 mode = sys.argv[1]
@@ -22,4 +23,8 @@ with open(filename, 'r') as f:
         f.readline() # Swallow k
         kmers = [line.strip() for line in f.readlines() if line.strip() != '']
         result = eulerian.reconstruction.reconstruct(kmers)
+        print(result)
+    elif mode == 'kuniversal':
+        k = int(f.readline().strip())
+        result = eulerian.kuniversal.create_circular_string(k)
         print(result)
