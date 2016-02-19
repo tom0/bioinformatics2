@@ -1,7 +1,16 @@
-import protein_translation, sys
+import encoding
+import protein_translation
+import sys
 
-filename = sys.argv[1]
+switch = sys.argv[1]
+filename = sys.argv[2]
 
 with open(filename, 'r') as f:
-    input = f.readline().strip()
-    print(protein_translation.translate(input))
+    if switch == 'encoding':
+        text = f.readline().strip()
+        peptide = f.readline().strip()
+        print('\n'.join(encoding.encode(text, peptide)))
+
+    else:
+        input = f.readline().strip()
+        print(protein_translation.translate(input))

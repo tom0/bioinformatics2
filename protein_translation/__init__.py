@@ -67,3 +67,7 @@ lookup = {
 
 def translate(input):
     return ''.join([lookup[input[i:i+3]] for i in range(0, len(input), 3)])
+
+
+def transcribe(dna):
+    return dna.replace('T', 'U')
